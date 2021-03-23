@@ -222,7 +222,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
+                                        "key_code": "keypad_hyphen",
                                         "modifiers": [
                                             "left_shift"
                                         ]
@@ -248,7 +248,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "close_bracket",
+                                        "key_code": "keypad_plus",
                                         "modifiers": [
                                             "left_shift"
                                         ]
@@ -352,7 +352,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "",
+                                        "key_code": "non_us_backslash",
                                         "modifiers": []
                                     }
                                 ],
@@ -376,7 +376,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "p",
+                                        "key_code": "non_us_backslash",
                                         "modifiers": [
                                             "left_shift"
                                         ]
@@ -556,10 +556,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "hyphen",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
+                                        "key_code": "close_bracket",
+                                        "modifiers": []
                                     }
                                 ],
                                 "type": "basic"
@@ -582,7 +580,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "quote",
+                                        "key_code": "close_bracket",
                                         "modifiers": [
                                             "left_shift"
                                         ]
@@ -658,7 +656,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "open_bracket",
+                                        "key_code": "keypad_hyphen",
                                         "modifiers": []
                                     }
                                 ],
@@ -682,7 +680,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "close_bracket",
+                                        "key_code": "keypad_plus",
                                         "modifiers": []
                                     }
                                 ],
@@ -782,7 +780,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "comma",
+                                        "key_code": "hyphen",
                                         "modifiers": [
                                             "left_shift"
                                         ]
@@ -808,7 +806,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "period",
+                                        "key_code": "slash",
                                         "modifiers": [
                                             "left_shift"
                                         ]
@@ -834,10 +832,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "slash",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
+                                        "key_code": "backslash",
+                                        "modifiers": []
                                     }
                                 ],
                                 "type": "basic"
@@ -912,6 +908,32 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 8705,
+                        "vendor_id": 4617
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 8705,
+                        "vendor_id": 4617
+                    },
+                    "ignore": true,
+                    "manipulate_caps_lock_led": false,
                     "simple_modifications": []
                 }
             ],
