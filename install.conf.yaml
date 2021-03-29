@@ -3,3 +3,5 @@
 - link:
     ~/.config/karabiner: karabiner
     ~/.zshrc:
+    ~/.config/fish: fish
+    ~/.config/omf: omf
